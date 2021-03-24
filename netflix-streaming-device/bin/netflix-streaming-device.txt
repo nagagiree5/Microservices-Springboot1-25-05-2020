@@ -1,0 +1,14 @@
+26-05-2020:
+
+http://localhost:4444/Netflix/device/add
+{
+"mobile":"9492011956",
+"device":"SamsungJ6+"
+}
+
+http://localhost:4444/Netflix/devices/9492011956
+
+http://localhost:4444/Netflix/device/delete/9492011955
+http://localhost:4444/Netflix/device/delete?id=3
+http://localhost:4444/Netflix/device/v1/getAll
+http://localhost:4444/Netflix/device/v2/getAll

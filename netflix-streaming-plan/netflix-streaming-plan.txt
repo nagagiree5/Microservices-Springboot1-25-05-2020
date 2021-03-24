@@ -1,0 +1,38 @@
+27-05-2020:
+
+http://localhost:3333/Netflix/getAllPlans
+http://localhost:3333/Netflix/getSpecificPlan/Netflix-Basic
+http://localhost:3333/Netflix/plan/add
+http://localhost:3333/Netflix/plan/update
+http://localhost:3333/Netflix/plan/delete?id=Netflix-Basic
+http://localhost:3333/Netflix/plan/byPrice?search=Rs 199
+http://localhost:3333/Netflix/plan/byName?search=Bas
+{
+"planId":"Netflix-Mobile",
+"planName":"Mobile-only",
+"pricePerMonth":"Rs 199",
+"featuresProvide":"1-screen support, HD content, mobile-only"
+}
+
+{
+"planId":"Netflix-Basic",
+"planName":"Basic",
+"pricePerMonth":"Rs 499",
+"featuresProvide":"1-screen support, HD content, access across all platforms"
+}
+{
+"planId":"Netflix-Standard",
+"planName":"Standard",
+"pricePerMonth":"Rs 649",
+"featuresProvide":"2-screen support, HD content, access across all platforms"
+}
+{
+"planId":"Netflix-Premium",
+"planName":"Premium",
+"pricePerMonth":"Rs 799",
+"featuresProvide":"4-screen support, HD content, access across all platforms"
+}
+
+
+
+

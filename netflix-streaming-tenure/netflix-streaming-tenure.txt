@@ -1,0 +1,18 @@
+25-05-2020:
+netflix-tenure
+
+
+http://localhost:5555/Netflix/tenure/9494525638
+http://localhost:5555/Netflix/tenure/add
+http://localhost:5555/Netflix/tenure/delete?id=3
+http://localhost:5555/Netflix/tenures
+http://localhost:5555/Netflix/tenure/update
+{
+"id": 3,
+"mobile": "9494525638",
+"gmail": "poojahegde@gmail.com",
+"plan": "Standrad",
+"start": "2020-05-25",
+"stop": "2020-08-17",
+"durationInHrs":"60-hrs"
+}

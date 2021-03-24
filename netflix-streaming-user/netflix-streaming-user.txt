@@ -1,0 +1,52 @@
+28-05-2020:
+
+http://localhost:2222/Netflix/user/register
+http://localhost:2222/Netflix/user/login
+http://localhost:2222/Netflix/user/update
+http://localhost:2222/Netflix/user/delete?phoneNor=8500874007
+http://localhost:2222/Netflix/user/viewProfile/8500874004
+
+http://localhost:2222/Netflix/user/update/plan
+{
+"phoneNor":"8500874004",
+"planId":"Netflix-Basic"
+}
+
+{
+"phoneNor":"9492011956",
+"userName":"Nagagiri",
+"password":"nagagiri",
+"email":"nagagirigollapalli@gmail.com",
+"planId":"Netflix-Basic"
+}
+{
+"phoneNor":"8500874004",
+"userName":"xxxxx",
+"password":"xxxxx",
+"email":"xxxxxx@gmail.com",
+"planId":"Netflix-Mobile"
+}
+
+http://localhost:2222/Netflix/user/viewProfile/9492011956
+{
+    "phoneNor": "9492011956",
+    "userName": "Nagagiri",
+    "email": "nagagirigollapalli@gmail.com",
+    "planId": "Netflix-Basic",
+    "currentPlan": {
+        "planId": "Netflix-Basic",
+        "planName": "Basic",
+        "pricePerMonth": "Rs 499",
+        "featuresProvide": "1-screen support, HD content, access across all platforms"
+    },
+    "devicesConnected": [
+        {
+            "device": "SamsungJ6+"
+        },
+        {
+            "device": "OppoF11Pro"
+        }
+    ]
+}
+
+
